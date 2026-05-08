@@ -1,0 +1,19 @@
+2026-05-08 18:33:32.638909 - Cliente registrado exitosamente: Juan Pérez
+2026-05-08 18:33:32.641496 - Cliente registrado exitosamente: Ana Gómez
+2026-05-08 18:33:32.642854 - Cliente registrado exitosamente: Carlos Ruiz
+2026-05-08 18:33:32.643619 - Error al registrar cliente: El nombre no puede estar vacío
+2026-05-08 18:33:32.645230 - Error al registrar cliente: Correo inválido: 'pedrogmail.com'
+2026-05-08 18:33:32.647983 - Error al registrar cliente: El teléfono debe contener solo dígitos: 'telefono'
+2026-05-08 18:33:32.649654 - Servicio creado: Reserva de Sala
+2026-05-08 18:33:32.650473 - Servicio creado: Alquiler de Equipo
+2026-05-08 18:33:32.651019 - Servicio creado: Asesoría Especializada
+2026-05-08 18:33:32.652077 - Intento de crear servicio con parámetros inválidos: Las horas de reserva deben ser mayores que cero
+2026-05-08 18:33:32.653359 - Intento de crear servicio con parámetros inválidos: Los días de alquiler deben ser mayores que cero
+2026-05-08 18:33:32.656091 - Proceso de reserva ejecutado - Cliente: Juan Pérez | Servicio: Reserva de Sala | Estado: Confirmada
+2026-05-08 18:33:32.657561 - Proceso de reserva ejecutado - Cliente: Ana Gómez | Servicio: Alquiler de Equipo | Estado: Confirmada
+2026-05-08 18:33:32.660083 - Proceso de reserva ejecutado - Cliente: Carlos Ruiz | Servicio: Asesoría Especializada | Estado: Confirmada
+2026-05-08 18:33:32.661142 - Error en operación de reserva: No se puede confirmar una reserva ya cancelada
+2026-05-08 18:33:32.661829 - Intento de reserva con duración inválida: La duración de la reserva debe ser mayor que cero
+2026-05-08 18:33:32.662392 - Proceso de reserva ejecutado - Cliente: Ana Gómez | Servicio: Reserva de Sala | Estado: Confirmada
+2026-05-08 18:33:32.663259 - Error encadenado en reserva: Error al procesar la reserva por fallo en el servicio | Causa: El descuento debe estar entre 0 y 0.99
+2026-05-08 18:33:32.664305 - Sistema ejecutado y finalizado correctamente
